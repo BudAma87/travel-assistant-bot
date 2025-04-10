@@ -1,5 +1,5 @@
 from app.graph_flow import build_graph
-import app.langsmith_config  # enable tracing
+import app.langsmith_config
 
 if __name__ == "__main__":
     app = build_graph()
